@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="styles.css">
+    <title>Styled Button</title>
+    <style>
+        /* Reset default button styles */
+button {
+    border: none;
+    outline: none;
+    cursor: pointer;
+    padding: 10px 20px; /* Adjust padding as needed */
+    background-color: white;
+    color: blue;
+    position: relative; /* To add the black strip */
+    width: 150px;
+}
+
+/* Style the button on hover */
+button:hover {
+    background-color: white;
+    color: purple;
+}
+
+/* Add the black strip on the right */
+button::after {
+    content: "";
+    position: absolute;
+    top: 0;
+    right: 0;
+    bottom: 0;
+    width: 10px; /* Adjust the thickness of the strip as needed */
+    background-color: black;
+}
+
+    </style>
+</head>
+<body>
+    <button class="styled-button">Click me</button>
+</body>
+</html>

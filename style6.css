@@ -1,0 +1,43 @@
+.container {
+    background-color: #f0f0f0;
+    padding: 20px; /* Increase padding for better spacing */
+    width: 400px;
+    margin: 0 auto;
+    height: 50px; /* Center-align the container horizontally */
+}
+
+/* Style the button */
+.btn {
+    background-color: red;
+    color: #fff;
+    border: none;
+    cursor: pointer;
+    border-radius: 7px;
+    text-decoration: none;
+    font-weight: bold;
+    width: 20%; /* Make the button span the container's width */
+    height: 50px;
+    margin-top: 10px; /* Add margin for spacing */
+}
+
+/* Style the link for "Forgot Password" */
+.forgot-link {
+    color: black;
+    text-decoration: none;
+    text-align: right; /* Align the link to the right */
+    display: block; /* Ensure the link takes up full width */
+    padding-bottom: 70px; /* Add margin for spacing */
+}
+
+/* Change link color on hover */
+.forgot-link:hover {
+    text-decoration: underline;
+}
+
+img {
+    display: block; /* Center the image horizontally */
+    margin: 0 auto; /* Center the image horizontally */
+    margin-top: 20px; /* Adjust the top margin for spacing */
+    width: 300px;
+    height: 300px;
+}

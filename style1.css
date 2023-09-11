@@ -1,0 +1,47 @@
+table{
+  margin-top: 50px;
+  margin-left: auto;
+  margin-right: auto;
+  width: 70%;
+}
+table, th, td {
+    border: 1px solid black;
+    border-radius: 10px;
+    background-color: rgb(126, 199, 231);
+  }
+  .row {
+    display: flex; /* Use flexbox for horizontal alignment */
+    justify-content: center; /* Center the shapes horizontally */
+  }
+
+  /* Style for the shape container */
+  .shape-container {
+    display: inline-block; /* Display shapes side by side in the row */
+    margin: 10px; /* Add some spacing between shapes */
+  }
+
+  /* Style for the square, circle, and triangle */
+  .shape {
+    width: 100px;
+    height: 100px;
+    background-color: transparent;
+    border-width: 2px;
+    border-style: solid;
+    margin: 5px; /* Add some spacing between shapes */
+  }
+
+  .rectangle1 {
+    width: 150px;
+    height: 70px;
+    background-color: transparent;
+    border: 4px solid rgb(8, 165, 29);
+    margin-top: 30px;
+    border-radius: 8px;
+  } 
+  .oval {
+    width: 150px; /* Set the width of the oval */
+    height: 70px; /* Set the height of the oval */
+    background-color:transparent; /* Set the background color */
+    border-radius: 50%; /* Use border-radius to create the oval shape */
+    border: 4px solid rgb(8, 165, 29);
+  } 
