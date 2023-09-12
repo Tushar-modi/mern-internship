@@ -1,0 +1,66 @@
+body {
+    background-color: purple;
+    margin: 0;
+    padding: 0;
+    font-family: Arial, sans-serif;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+}
+.container {
+    background-color: #e6e6fa; /* Light purple shade */
+    width: 650px; /* Increase the width */
+    height: 650px; /* Increase the height to make it square */
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.3);
+}
+.form-group {
+    display: flex;
+    align-items: center;
+    justify-content: space-between; /* Add space between labels and input */
+    margin-bottom: 20px;
+}
+label {
+    width: 30%;
+    text-align: left; /* Align labels to the left */
+    font-weight: bold;
+}
+input[type="text"],
+input[type="email"],
+input[type="password"],
+input[type="tel"],
+select,
+textarea {
+    width: 65%; /* Reduce the input width */
+    padding: 5px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    outline: none;
+}
+.radio-group {
+    display: flex;
+    align-items: center;
+    width: 65%; /* Reduce the input width for radio buttons */
+}
+.radio-label {
+    width: 15%; /* Adjust the width of radio button labels */
+    text-align: left; /* Align radio options labels to the left */
+    margin-right: 10px;
+}
+.radio-input {
+    width: 5%; /* Adjust the width of radio buttons */
+    margin-right: 5px;
+}
+.btn-container {
+    text-align: center;
+}
+.register-btn {
+    background-color: #4CAF50; /* Green button color */
+    color: white;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}

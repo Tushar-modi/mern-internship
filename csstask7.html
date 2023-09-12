@@ -3,10 +3,57 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
+    <title>Registration Form</title>
     <link rel="stylesheet" href="style7.css">
 </head>
 <body>
-    
+    <div class="container">
+        <form>
+            <div class="form-group">
+                <label for="name">Name:</label>
+                <input type="text" id="name" name="name" required placeholder="your name">
+            </div>
+            <div class="form-group">
+                <label for="email">Email:</label>
+                <input type="email" id="email" name="email" required placeholder="your email">
+            </div>
+            <div class="form-group">
+                <label for="password">Password:</label>
+                <input type="password" id="password" name="password" required>
+            </div>
+            <div class="form-group">
+                <label for="phone">Phone Number:</label>
+                <input type="tel" id="phone" name="phone" required>
+            </div>
+            <div class="form-group radio-group">
+                <label class="radio-label" style="padding-right: 140px;">Gender:</label>
+                <input type="radio" id="male" name="gender" value="male" class="radio-input">
+                <label for="male">Male</label>
+                <input type="radio" id="female" name="gender" value="female" class="radio-input">
+                <label for="female">Female</label>
+                <input type="radio" id="other" name="gender" value="other" class="radio-input">
+                <label for="other">Other</label>
+            </div>
+            <div class="form-group">
+                <label for="language">Language:</label>
+                <select id="language" name="language">
+                    <option value="english">English</option>
+                    <option value="spanish">Spanish</option>
+                    <option value="french">French</option>
+                </select>
+            </div>
+            <div class="form-group">
+                <label for="zip">Zip Code:</label>
+                <input type="text" id="zip" name="zip">
+            </div>
+            <div class="form-group">
+                <label for="about">About:</label>
+                <textarea id="about" name="about" rows="4"></textarea>
+            </div>
+            <div class="btn-container">
+                <button type="submit" class="register-btn">Register</button>
+            </div>
+        </form>
+    </div>
 </body>
 </html>
